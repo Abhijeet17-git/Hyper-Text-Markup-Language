@@ -1,0 +1,8 @@
+1.what is the tag?
+->by uisng the tag we can do the semantics,structure and formating
+2.what is the semantics tags?
+->heading , paragraph ,anchor tag ,order list ul ,table , image form ,input
+3.what is the sructure tags?
+->this is the is where html,head,body,main,header,footer,artical ,section ,nav etc
+4.what are he formating tag?
+-> <b><u><i><strong><sup><br><><><><>
