@@ -1,0 +1,100 @@
+<!-- what is the form? -->
+<!-- use for the collecting the user input  -->
+<!-- diffrent tags exist in the forms -->
+<!-- <form> :- for making the   -->
+<!-- input :- this tag is use for the taking the input from the user -->
+<!-- label :- for giving the name for the input (<label for="id_for wich we are giving the label"></label>) -->
+<!-- Text-based Types:
+
+type="text"
+
+type="password"
+
+type="email"
+
+type="tel"
+
+type="url"
+
+type="search"
+
+Numeric Types:
+
+type="number"
+
+type="range"
+
+Selection Types:
+
+type="checkbox"
+
+type="radio"
+
+type="color"
+
+Date and Time Types:
+
+type="date"
+
+type="datetime-local"
+
+type="month"
+
+type="week"
+
+type="time"
+
+Button Types:
+
+type="submit"
+
+type="reset"
+
+type="button"
+
+type="image"
+
+Special Types:
+
+type="file"
+
+type="hidden" -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>HTML Form Dummy</legend>
+    <form action="save_data.php">
+        <label for="email" , placeholde=" enter your email">enter email id</label>
+        <input type="text" , id="email">
+        <br />
+        <br />
+        <label for="password">enter password</label>
+        <input type="text" , id="password">
+        <br />
+        <br />
+        <label for="cars"></label>
+        <select name="cars" id="cars" multiple size = "2" >
+            <option value="volvo">Volvo</option>
+            <option value="audi">Audi</option>
+            <option value="bmw">BMW</option>
+            <option value="toyota">Toyota</option>
+        </select>
+        <br />
+        <br />
+        <!-- <input type="submit" , value="Submit"></form> -->
+        <button type=""></button> <!-- Type = "submit ,reset ,button" -->
+        text ares use for the give me the para for the input
+        <textarea name = "text1"  id ="text2" cols="30"rows="40" placeholder="enter the text"></textarea>
+    </form>
+    </fieldset>
+</body>
+
+</html>
